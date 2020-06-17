@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\kexiang\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\kexiang\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_PingPong.-599190833.00" t="ExcludeRecursive" />
+    <e p="E:\PingPong" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="com.unity.mgobe" t="Include">
+          <e p="Editor" t="Include">
+            <e p="MgobeMenu.cs" t="Include" />
+            <e p="TcbClient.cs" t="Include" />
+          </e>
+          <e p="Runtime" t="Include">
+            <e p="Global.cs" t="Include" />
+            <e p="pb" t="Include">
+              <e p="Proto.cs" t="Include" />
+            </e>
+            <e p="src" t="Include">
+              <e p="Broadcast" t="Include">
+                <e p="BroadcastOnce.cs" t="Include" />
+                <e p="FrameBroadcast.cs" t="Include" />
+                <e p="RoomBroadcast.cs" t="Include" />
+              </e>
+              <e p="Const.cs" t="Include" />
+              <e p="Core.cs" t="Include" />
+              <e p="EventUploader" t="Include">
+                <e p="Adapter.cs" t="Include" />
+                <e p="Beacon_unity_conf.cs" t="Include" />
+                <e p="Beacon_untiy.cs" t="Include" />
+                <e p="Events.cs" t="Include" />
+                <e p="EventUpload.cs" t="Include" />
+                <e p="FrameBst.cs" t="Include" />
+                <e p="Stat.cs" t="Include" />
+              </e>
+              <e p="GameInfo.cs" t="Include" />
+              <e p="Listener.cs" t="Include" />
+              <e p="Matcher" t="Include">
+                <e p="Matcher.cs" t="Include" />
+              </e>
+              <e p="Net" t="Include">
+                <e p="BaseNetUtil.cs" t="Include" />
+                <e p="Kcp" t="Include">
+                  <e p="KCP.cs" t="Include" />
+                </e>
+                <e p="KCPSocket.cs" t="Include" />
+                <e p="Net.cs" t="Include" />
+                <e p="NetClient.cs" t="Include" />
+                <e p="NetServer.cs" t="Include" />
+                <e p="Socket.cs" t="Include" />
+              </e>
+              <e p="Ping" t="Include">
+                <e p="Pinger.cs" t="Include" />
+              </e>
+              <e p="Player.cs" t="Include" />
+              <e p="Room" t="Include">
+                <e p="Room.cs" t="Include" />
+                <e p="RoomUtil.cs" t="Include" />
+              </e>
+              <e p="SDK" t="Include">
+                <e p="Room.cs" t="Include" />
+                <e p="RoomBroadcastHandler.cs" t="Include" />
+              </e>
+              <e p="SDK.cs" t="Include" />
+              <e p="SDKType.cs" t="Include" />
+              <e p="Sender" t="Include">
+                <e p="FrameSender.cs" t="Include" />
+                <e p="Sender.cs" t="Include" />
+              </e>
+              <e p="User" t="Include">
+                <e p="User.cs" t="Include" />
+                <e p="UserUtil.cs" t="Include" />
+              </e>
+              <e p="Util" t="Include">
+                <e p="Debugger.cs" t="Include" />
+                <e p="Def" t="Include">
+                  <e p="Config.cs" t="Include" />
+                  <e p="EnumType.cs" t="Include" />
+                  <e p="ErrCode.cs" t="Include" />
+                </e>
+                <e p="PB.cs" t="Include" />
+                <e p="RandomUtil.cs" t="Include" />
+                <e p="Response.cs" t="Include" />
+                <e p="Status.cs" t="Include" />
+                <e p="Timer.cs" t="Include" />
+                <e p="Util.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="EventManager" t="Include">
+          <e p="BaseEventArgs.cs" t="Include" />
+          <e p="EventManager.cs" t="Include" />
+          <e p="EventType.cs" t="Include" />
+        </e>
+        <e p="Main.cs" t="Include" />
+        <e p="TextMesh Pro" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+            <e p="Shaders" t="Include">
+              <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+              <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+              <e p="TMP_Bitmap.shader" t="Include" />
+              <e p="TMP_SDF Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface.shader" t="Include" />
+              <e p="TMP_SDF.shader" t="Include" />
+              <e p="TMP_Sprite.shader" t="Include" />
+              <e p="TMPro.cginc" t="Include" />
+              <e p="TMPro_Properties.cginc" t="Include" />
+              <e p="TMPro_Surface.cginc" t="Include" />
+            </e>
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+          </e>
+        </e>
+        <e p="UILobby.cs" t="Include" />
+        <e p="UILogin.cs" t="Include" />
+        <e p="UIRoom.cs" t="Include" />
+      </e>
+      <e p="com.unity.mgobe.editor.csproj" t="IncludeRecursive" />
+      <e p="com.unity.mgobe.runtime.csproj" t="IncludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="PingPong.sln" t="IncludeFlat" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
