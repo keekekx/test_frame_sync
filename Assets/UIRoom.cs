@@ -29,10 +29,6 @@ public class UIRoom : MonoBehaviour
         }
     }
 
-    private ulong current_frame_id;
-    private ulong start_frame_id;
-    private ulong end_frame_id;
-
     private void Start()
     {
         room.OnJoinRoom = evt =>
@@ -76,38 +72,13 @@ public class UIRoom : MonoBehaviour
             foreach (var item in bst.Frame.Items)
             {
                 var frame = JsonUtility.FromJson<Frame>(item.Data);
-                Debug.Log(frame);
             }
-            current_frame_id = bst.Frame.Id;
-            Debug.Log($"recv :{current_frame_id}");
-            if (current_frame_id - start_frame_id > 1)
-            {
-                end_frame_id = current_frame_id;
-                Debug.Log("需要补帧");
-                var send = new RequestFramePara()
-                {
-                    BeginFrameId = (long)start_frame_id,
-                    EndFrameId = (long)end_frame_id,
-                };
-                room.RequestFrame(send, ee =>
-                {
-                    Debug.Log(ee.Data);
-                });
-            }
-            else
-            {
-                start_frame_id = current_frame_id;
-            }
-            
-            //Debug.Log($"房间已开始同步，需要补帧>>{room.RoomBroadcast.FrameBroadcastFrameId}");
+            Debug.Log($"recv :{bst.Frame.Id}");
         };
         room.OnAutoRequestFrameError = evt =>
         {
             room.RetryAutoRequestFrame();
         };
-
-        if (room.RoomInfo.FrameSyncState != FrameSyncState.Start) return;
-        Request();
     }
 
     public void OnInfo()

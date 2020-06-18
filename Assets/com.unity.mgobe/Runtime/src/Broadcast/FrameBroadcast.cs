@@ -4,6 +4,7 @@ using Packages.com.unity.mgobe.Runtime.src.Util;
 using Packages.com.unity.mgobe.Runtime.src.Util.Def;
 using Packages.com.unity.mgobe.Runtime.src.EventUploader;
 using Lagame;
+using UnityEngine;
 
 
 namespace Packages.com.unity.mgobe.Runtime.src.Broadcast
@@ -161,7 +162,10 @@ namespace Packages.com.unity.mgobe.Runtime.src.Broadcast
                 _fillCache.Remove(beginFrameId);
                 foreach (var item in cache.Frames)
                 {
-                    this.Send(new BroadcastEvent(item, ""));
+                    this.Send(new BroadcastEvent(new RecvFrameBst()
+                    {
+                        Frame = item
+                    }, ""));
                 }
 
                 beginFrameId = cache.EndFrameId + 1;
@@ -215,6 +219,13 @@ namespace Packages.com.unity.mgobe.Runtime.src.Broadcast
                     this.FillSend(beginFrameId);
                 }
             };
+            
+            Debug.Log($"触发补帧{beginFrameId}->{endFrameId}");
+            room.RequestFrame(new RequestFramePara()
+            {
+                BeginFrameId = beginFrameId,
+                EndFrameId = endFrameId,
+            }, callback);
         }
     }
 
