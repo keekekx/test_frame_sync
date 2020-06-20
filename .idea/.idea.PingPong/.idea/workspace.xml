@@ -11,6 +11,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/EventManager/EventManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/Def/Config.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Net/NetClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EventManager/BaseEventArgs.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Net/NetServer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/SDK/RoomBroadcastHandler.cs" root0="FORCE_HIGHLIGHTING" />
@@ -33,6 +34,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FCB9DAC8-AE3A-4886-93B0-F4CD5B0DB0BE/9f/be42933c/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Broadcast/RoomBroadcast.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FCB9DAC8-AE3A-4886-93B0-F4CD5B0DB0BE/87/b56e79e4/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SyncBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/437BA245-D840-4784-B9FB-AB9B439AC908/e3/a85ace90/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -47,6 +49,8 @@
         <option value="$PROJECT_DIR$/Assets/UILobby.cs" />
         <option value="$PROJECT_DIR$/Assets/UIRoom.cs" />
         <option value="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Broadcast/FrameBroadcast.cs" />
+        <option value="$PROJECT_DIR$/Assets/SyncBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Player.cs" />
       </list>
     </option>
   </component>
@@ -70,10 +74,10 @@
       <option name="pid" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="15644">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="15644" />
+      <option name="pid" />
       <method v="2" />
     </configuration>
   </component>
@@ -86,7 +90,7 @@
       <updated>1592303776562</updated>
       <workItem from="1592303790963" duration="22966000" />
       <workItem from="1592391505556" duration="1000" />
-      <workItem from="1592391516178" duration="5049000" />
+      <workItem from="1592391516178" duration="5977000" />
     </task>
     <servers />
   </component>
