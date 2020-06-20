@@ -21,11 +21,16 @@
     <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Room/RoomUtil.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EventManager/EventType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UIBegin.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/pb/Proto.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/Response.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Listener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48050808-8AEE-40CA-B708-18FF164A29D5/65/d69c0c20/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B956647-017D-4DC1-B8D3-D25EEF012467/24/f45d8f2b/Physics.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UILobby.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GameDirector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Sender/FrameSender.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B956647-017D-4DC1-B8D3-D25EEF012467/10/cd73d594/Rigidbody.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/Util.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UIRoom.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/SDK.cs" root0="FORCE_HIGHLIGHTING" />
@@ -35,6 +40,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Broadcast/RoomBroadcast.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FCB9DAC8-AE3A-4886-93B0-F4CD5B0DB0BE/87/b56e79e4/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SyncBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48050808-8AEE-40CA-B708-18FF164A29D5/b7/707995ca/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/437BA245-D840-4784-B9FB-AB9B439AC908/e3/a85ace90/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -50,6 +56,8 @@
         <option value="$PROJECT_DIR$/Assets/UIRoom.cs" />
         <option value="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Broadcast/FrameBroadcast.cs" />
         <option value="$PROJECT_DIR$/Assets/SyncBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/UIBegin.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameDirector.cs" />
         <option value="$PROJECT_DIR$/Assets/Player.cs" />
       </list>
     </option>
@@ -91,6 +99,7 @@
       <workItem from="1592303790963" duration="22966000" />
       <workItem from="1592391505556" duration="1000" />
       <workItem from="1592391516178" duration="5977000" />
+      <workItem from="1592630319962" duration="7448000" />
     </task>
     <servers />
   </component>
@@ -168,6 +177,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2517" height="519" key="GridCell.Tab.3.right/-1440.-645.1440.2520/0.0.2560.1400@0.0.2560.1400" timestamp="1592447683956" />
+    <state x="1096" y="415" key="RiderGenerateDialog" timestamp="1592630446928">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1096" y="415" key="RiderGenerateDialog/-1440.-645.1440.2520/0.0.2560.1400@0.0.2560.1400" timestamp="1592630446928" />
     <state width="1288" height="708" key="XDebugger.FullValuePopup" timestamp="1592389923041">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

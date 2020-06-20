@@ -93,6 +93,7 @@
           <e p="EventManager.cs" t="Include" />
           <e p="EventType.cs" t="Include" />
         </e>
+        <e p="GameDirector.cs" t="Include" />
         <e p="Main.cs" t="Include" />
         <e p="Player.cs" t="Include" />
         <e p="SyncBehavior.cs" t="Include" />
@@ -124,6 +125,7 @@
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
+        <e p="UIBegin.cs" t="Include" />
         <e p="UILobby.cs" t="Include" />
         <e p="UILogin.cs" t="Include" />
         <e p="UIRoom.cs" t="Include" />
